@@ -1,0 +1,201 @@
+id_pedido,direccion_entrega,ruta_asignada
+PED-00001,"Via Florencia Bautista 4 Piso 8 , Machala",2
+PED-00002,"Glorieta de Elpidio Barberá 32 Piso 9 , Riobamba",3
+PED-00003,"Rambla Faustino Torrijos 1, Esmeraldas",0
+PED-00004,"Callejón de Carlota Castilla 83 Piso 2 , Quevedo",3
+PED-00005,"Via Inés Soto 79, Esmeraldas",0
+PED-00006,"Avenida Yésica Barranco 17, Quito - Centro Histórico",0
+PED-00007,"Paseo Griselda Mur 62 Apt. 52 , Ambato",3
+PED-00008,"Callejón de Ciro Balaguer 7, Riobamba",3
+PED-00009,"Acceso Fernanda Gonzalo 6 Apt. 26 , Cuenca",2
+PED-00010,"Glorieta Cruz Aguiló 31 Apt. 46 , Durán",1
+PED-00011,"Camino Esperanza Menendez 6, Quito - La Mariscal",0
+PED-00012,"Plaza de Iker Losa 7, Guayaquil - Samborondón",1
+PED-00013,"Via de Conrado Sastre 52 Puerta 9 , Guayaquil - Centro",1
+PED-00014,"Paseo de Graciano Ballester 11 Piso 0 , Daule",1
+PED-00015,"Paseo de Alicia Losada 97, Quito - La Mariscal",0
+PED-00016,"Alameda de Reynaldo Barros 75 Apt. 49 , Ambato",3
+PED-00017,"Avenida Mar Valderrama 71, Latacunga",3
+PED-00018,"Callejón de Luis Miguel Huguet 70 Puerta 3 , Quevedo",3
+PED-00019,"Cañada de Brígida Corral 61 Puerta 3 , Santo Domingo",0
+PED-00020,"Ronda de Severiano Matas 20, Quito - Centro Histórico",0
+PED-00021,"Urbanización Rebeca Bas 10 Apt. 72 , Latacunga",3
+PED-00022,"Plaza de Silvio Martín 85 Piso 6 , Quito - La Mariscal",0
+PED-00023,"Pasadizo de Tristán Torrents 7, Quito - Cumbayá",0
+PED-00024,"Calle Isidoro Serrano 31, Loja",2
+PED-00025,"Cañada de Rosalva Maestre 9 Apt. 78 , Riobamba",3
+PED-00026,"Ronda de Celso Tena 95 Apt. 50 , Machala",2
+PED-00027,"Urbanización Chus Piña 47, Quito - Centro Histórico",0
+PED-00028,"Cuesta Agustina Mateu 77, Manta",1
+PED-00029,"Via Bartolomé Morillo 36, Durán",1
+PED-00030,"Ronda Apolonia Miranda 67, Guayaquil - Urdesa",1
+PED-00031,"Avenida Olalla Barrena 25 Apt. 61 , Latacunga",3
+PED-00032,"Cañada de Esperanza Morcillo 32 Apt. 12 , Quito - Cumbayá",0
+PED-00033,"Pasaje Pastora Escamilla 17, Loja",2
+PED-00034,"Via Adriana Grau 591, Cuenca",2
+PED-00035,"Pasaje de Andrés Cobos 7 Puerta 5 , Daule",1
+PED-00036,"Urbanización de Caridad Casanovas 42, Ambato",3
+PED-00037,"Cañada de Vinicio Cerdán 56 Puerta 0 , Loja",2
+PED-00038,"Avenida Eusebia Collado 39 Apt. 66 , Portoviejo",1
+PED-00039,"Pasadizo Adela Gisbert 733 Puerta 7 , Durán",1
+PED-00040,"Cuesta de Isaura Pedrero 4 Puerta 0 , Quito - Cumbayá",0
+PED-00041,"Cuesta Gabino Díez 957 Piso 3 , Machala",2
+PED-00042,"Acceso de Eufemia Zapata 41, Durán",1
+PED-00043,"Callejón Chus Machado 3 Puerta 9 , Portoviejo",1
+PED-00044,"Pasadizo de Rita Zamora 3, Cuenca",2
+PED-00045,"Glorieta de Carmina Cortes 9 Apt. 62 , Cuenca",2
+PED-00046,"Alameda Isa Salvador 28, Latacunga",3
+PED-00047,"Pasaje Rosa María Roig 59, Manta",1
+PED-00048,"Alameda de Teresita Alcaraz 639, Guayaquil - Urdesa",1
+PED-00049,"Alameda Ángel Ángel 5, Guayaquil - Urdesa",1
+PED-00050,"Camino de Emelina Mata 9 Apt. 11 , Ibarra",0
+PED-00051,"Avenida Esmeralda Gómez 3 Piso 6 , Cuenca",2
+PED-00052,"Acceso de Teodosio Pérez 41, Guayaquil - Samborondón",1
+PED-00053,"Pasadizo Consuela Amigó 914, Esmeraldas",0
+PED-00054,"Alameda Rufino Mata 251, Guayaquil - Centro",1
+PED-00055,"Camino Salomón Ortega 62 Piso 4 , Ibarra",0
+PED-00056,"Callejón Cayetana Cerro 3, Portoviejo",1
+PED-00057,"Callejón de Samanta Márquez 419 Puerta 3 , Loja",2
+PED-00058,"Avenida de Asunción Tormo 30, Esmeraldas",0
+PED-00059,"Camino de Cesar Badía 88 Apt. 15 , Machala",2
+PED-00060,"Paseo de Lisandro Barragán 254 Apt. 99 , Riobamba",3
+PED-00061,"Plaza Yago Viña 11, Quevedo",3
+PED-00062,"Pasadizo Custodio Tomas 9 Apt. 99 , Guayaquil - Centro",1
+PED-00063,"Glorieta Carlito Royo 53 Apt. 76 , Ibarra",0
+PED-00064,"Calle de Inocencio Pinto 24, Durán",1
+PED-00065,"Cuesta de Miguela Marí 22 Puerta 2 , Ibarra",0
+PED-00066,"Callejón Cleto Córdoba 77 Apt. 77 , Portoviejo",1
+PED-00067,"Avenida de Flora Cardona 68, Ibarra",0
+PED-00068,"Paseo Fabio Lucena 867 Apt. 16 , Ibarra",0
+PED-00069,"Ronda de Irma Escamilla 5, Quito - Cumbayá",0
+PED-00070,"Plaza de Mariano Fuertes 559 Apt. 41 , Ibarra",0
+PED-00071,"Urbanización de Fanny Ayala 468 Piso 1 , Daule",1
+PED-00072,"Via Angelino Naranjo 6 Piso 3 , Manta",1
+PED-00073,"Pasadizo Amada Morata 27 Piso 9 , Quito - Cumbayá",0
+PED-00074,"Pasaje Lola Anglada 80 Piso 9 , Quito - Cumbayá",0
+PED-00075,"Camino Chuy Campoy 70, Quito - La Mariscal",0
+PED-00076,"Callejón Delia Clemente 92 Piso 7 , Quito - Centro Histórico",0
+PED-00077,"Ronda de Marta Calderón 19 Piso 5 , Quito - Centro Histórico",0
+PED-00078,"Paseo de Edelmira Cantón 1, Latacunga",3
+PED-00079,"Pasadizo Aurora Acuña 40, Latacunga",3
+PED-00080,"Cuesta de Celestino Aznar 15, Guayaquil - Centro",1
+PED-00081,"Vial de Calixto Coll 77 Piso 8 , Guayaquil - Centro",1
+PED-00082,"Urbanización Clemente Bernal 731, Daule",1
+PED-00083,"Cañada Edmundo Peiró 71 Piso 2 , Riobamba",3
+PED-00084,"Pasaje de Margarita Santana 804 Piso 4 , Latacunga",3
+PED-00085,"Via de Anselma Acevedo 96, Manta",1
+PED-00086,"Paseo Micaela Cabezas 19, Durán",1
+PED-00087,"Calle Ibán Bas 9, Santo Domingo",0
+PED-00088,"C. de Verónica Carbó 579 Piso 0 , Guayaquil - Samborondón",1
+PED-00089,"Camino Jeremías Fajardo 909 Piso 7 , Guayaquil - Samborondón",1
+PED-00090,"Plaza de Marisa Benet 942 Puerta 9 , Daule",1
+PED-00091,"Urbanización Azahara Capdevila 74 Apt. 60 , Loja",2
+PED-00092,"Via Eloísa Núñez 73 Apt. 31 , Ambato",3
+PED-00093,"Pasaje de Javiera Cantero 58 Apt. 17 , Loja",2
+PED-00094,"Rambla Iris Gutierrez 10 Apt. 32 , Guayaquil - Samborondón",1
+PED-00095,"Callejón Jenny Ledesma 400 Piso 9 , Quito - Cumbayá",0
+PED-00096,"Urbanización Fabricio Mendizábal 47, Quevedo",3
+PED-00097,"Via Jennifer Rey 34 Puerta 2 , Portoviejo",1
+PED-00098,"Paseo Adriana Galan 8 Puerta 8 , Quevedo",3
+PED-00099,"Pasadizo de Amarilis Adadia 316 Piso 7 , Guayaquil - Samborondón",1
+PED-00100,"Plaza Celestino Barrena 29 Apt. 90 , Ambato",3
+PED-00101,"Cañada de Encarnita Garmendia 142 Piso 5 , Latacunga",3
+PED-00102,"Urbanización Anselmo Jordán 82, Ibarra",0
+PED-00103,"Vial Remedios Lloret 8 Puerta 5 , Guayaquil - Samborondón",1
+PED-00104,"Ronda de Fabiola Cañellas 134 Apt. 86 , Durán",1
+PED-00105,"Rambla de Jaime Ferrero 36, Quito - Cumbayá",0
+PED-00106,"Avenida de Cornelio Rosado 34 Apt. 89 , Santo Domingo",0
+PED-00107,"Pasadizo de Amaro Bueno 166, Santo Domingo",0
+PED-00108,"Callejón de Eligio Castells 31, Daule",1
+PED-00109,"Callejón Olivia Gelabert 36 Puerta 5 , Quito - Cumbayá",0
+PED-00110,"C. Óscar Talavera 24, Riobamba",3
+PED-00111,"Camino Jose Manuel Sanchez 84 Puerta 2 , Machala",2
+PED-00112,"Camino de Hilda Alemany 5, Santo Domingo",0
+PED-00113,"Pasaje Esteban Coca 3, Manta",1
+PED-00114,"Cuesta Eloy Oliver 4 Puerta 9 , Cuenca",2
+PED-00115,"Acceso de Nilda Lloret 12 Puerta 1 , Guayaquil - Centro",1
+PED-00116,"Pasaje de Jose Antonio Carro 5, Guayaquil - Samborondón",1
+PED-00117,"Pasadizo Lina Cisneros 994, Riobamba",3
+PED-00118,"Cuesta Vicente Álvaro 6, Latacunga",3
+PED-00119,"Glorieta de Elba Borrell 84 Puerta 6 , Ambato",3
+PED-00120,"Callejón de Toni Ponce 592, Latacunga",3
+PED-00121,"Vial Rubén Bonilla 26, Latacunga",3
+PED-00122,"Camino Lucio Vall 21 Apt. 36 , Santo Domingo",0
+PED-00123,"Urbanización Olegario Rivero 23 Puerta 8 , Loja",2
+PED-00124,"C. Artemio Daza 3 Puerta 2 , Guayaquil - Samborondón",1
+PED-00125,"Pasaje Liliana Saez 122, Latacunga",3
+PED-00126,"Avenida Albina Bonilla 38 Apt. 89 , Daule",1
+PED-00127,"Rambla Ale Barrios 14, Quito - La Mariscal",0
+PED-00128,"C. de Rubén Boada 1 Puerta 6 , Guayaquil - Centro",1
+PED-00129,"Pasadizo de Soledad Cañellas 73, Ambato",3
+PED-00130,"Callejón de Omar Pastor 552, Quevedo",3
+PED-00131,"Acceso Julieta Bou 93 Puerta 9 , Guayaquil - Centro",1
+PED-00132,"Vial de Martin Serna 107, Esmeraldas",0
+PED-00133,"Alameda de Cristian Enríquez 47 Piso 9 , Ibarra",0
+PED-00134,"Urbanización Luís Sacristán 88, Ibarra",0
+PED-00135,"Calle Emelina Acedo 988 Apt. 93 , Manta",1
+PED-00136,"C. de Amor Mir 56, Machala",2
+PED-00137,"Vial Virgilio Larrañaga 12, Santo Domingo",0
+PED-00138,"Pasaje Azahara Pazos 4, Durán",1
+PED-00139,"Rambla María Fernanda Múñiz 595 Puerta 3 , Portoviejo",1
+PED-00140,"Avenida de Concepción Urrutia 656, Ambato",3
+PED-00141,"Camino Tadeo Gallart 18 Piso 1 , Durán",1
+PED-00142,"Urbanización Gil Coloma 4 Puerta 9 , Manta",1
+PED-00143,"Via Tecla Andrés 20 Puerta 9 , Latacunga",3
+PED-00144,"Alameda Primitivo Jurado 3, Guayaquil - Centro",1
+PED-00145,"Pasadizo Pancho Valderrama 20 Puerta 9 , Guayaquil - Samborondón",1
+PED-00146,"Camino Lisandro Oliva 26, Latacunga",3
+PED-00147,"Calle de Marco Tolosa 550, Machala",2
+PED-00148,"Alameda de Guadalupe Gómez 33 Apt. 41 , Loja",2
+PED-00149,"Cuesta Marcial Amorós 17 Piso 5 , Ibarra",0
+PED-00150,"Rambla de Rodrigo Cobo 60 Piso 2 , Guayaquil - Samborondón",1
+PED-00151,"Ronda de Isabela Palomino 6 Apt. 30 , Latacunga",3
+PED-00152,"Cuesta de Clementina Arjona 7, Ambato",3
+PED-00153,"Cuesta María Teresa Castell 6, Guayaquil - Samborondón",1
+PED-00154,"Paseo Fabiola Soto 2 Puerta 4 , Daule",1
+PED-00155,"Vial de Carolina Palomino 47, Machala",2
+PED-00156,"Pasadizo Trinidad Almeida 546, Ibarra",0
+PED-00157,"Acceso María Dolores León 71 Piso 1 , Riobamba",3
+PED-00158,"Acceso de Esteban Pera 775, Guayaquil - Centro",1
+PED-00159,"Pasadizo de Merche Mármol 60, Guayaquil - Samborondón",1
+PED-00160,"Ronda Sonia Gallo 450 Puerta 5 , Cuenca",2
+PED-00161,"Glorieta Alondra Hurtado 72 Apt. 75 , Ambato",3
+PED-00162,"Vial Mateo Fernandez 168 Puerta 2 , Manta",1
+PED-00163,"Glorieta Román Plaza 68 Apt. 31 , Portoviejo",1
+PED-00164,"Pasaje Andrés Robles 100, Ibarra",0
+PED-00165,"Cuesta de Rafa Alfaro 51 Puerta 1 , Cuenca",2
+PED-00166,"Glorieta Fabián Osuna 7 Puerta 0 , Quito - La Mariscal",0
+PED-00167,"Acceso Alejo Pallarès 938 Puerta 9 , Manta",1
+PED-00168,"Ronda Gil Barco 811, Guayaquil - Samborondón",1
+PED-00169,"Camino Macario Cerdán 94, Santo Domingo",0
+PED-00170,"Calle Marita Tenorio 260, Durán",1
+PED-00171,"Via Gertrudis Nogueira 16 Piso 1 , Santo Domingo",0
+PED-00172,"Callejón de José Luis Herrera 94 Apt. 69 , Daule",1
+PED-00173,"Glorieta de Tristán Marin 23, Santo Domingo",0
+PED-00174,"Cuesta Elisa Barba 696 Apt. 13 , Daule",1
+PED-00175,"Ronda Gilberto Priego 23, Machala",2
+PED-00176,"Callejón de Ibán Pera 8 Piso 5 , Cuenca",2
+PED-00177,"Alameda Adela Benito 15, Loja",2
+PED-00178,"Paseo Tristán Palau 92 Piso 8 , Daule",1
+PED-00179,"Alameda Bartolomé Cabello 26, Riobamba",3
+PED-00180,"C. Luis Alegre 1, Ibarra",0
+PED-00181,"Alameda Rosa María Expósito 4, Esmeraldas",0
+PED-00182,"Avenida de Fabio Antúnez 94 Apt. 81 , Ibarra",0
+PED-00183,"Via de Rosenda Ferrán 70, Quito - La Mariscal",0
+PED-00184,"Pasaje Isidoro Pareja 20 Puerta 4 , Loja",2
+PED-00185,"Acceso Matías Domingo 93 Puerta 5 , Durán",1
+PED-00186,"Avenida de Dorotea Olmedo 1, Quito - Cumbayá",0
+PED-00187,"Glorieta de Luisina Gallo 35, Guayaquil - Samborondón",1
+PED-00188,"Glorieta Ibán Cruz 968 Puerta 7 , Manta",1
+PED-00189,"Urbanización Joaquina Terrón 90 Piso 9 , Ambato",3
+PED-00190,"Camino Nayara Viñas 765, Latacunga",3
+PED-00191,"Paseo Mateo Sierra 473 Apt. 54 , Santo Domingo",0
+PED-00192,"Cuesta Tecla Bejarano 983 Puerta 3 , Manta",1
+PED-00193,"Plaza de Flavia Olivera 59, Cuenca",2
+PED-00194,"Acceso Salomón Ripoll 681 Apt. 96 , Portoviejo",1
+PED-00195,"Cañada Custodio Trujillo 58 Apt. 03 , Riobamba",3
+PED-00196,"Alameda Gala Duarte 64, Esmeraldas",0
+PED-00197,"Via de Carina Ribas 18 Apt. 91 , Loja",2
+PED-00198,"Glorieta de Salvador Cañellas 70 Apt. 75 , Esmeraldas",0
+PED-00199,"Paseo de Débora Lerma 95 Apt. 93 , Loja",2
+PED-00200,"Cuesta Armando Cervantes 605, Portoviejo",1

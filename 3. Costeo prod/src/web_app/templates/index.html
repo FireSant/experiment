@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard de Costeo de Productos</title>
+    <!-- Añadimos Bootstrap para un estilo rápido y profesional -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">Análisis de Costo de Productos</h1>
+        <p>Esta tabla muestra el costo total desglosado por producto, calculado a partir de datos de materiales, mano de obra y costos indirectos.</p>
+        
+        <!-- La tabla se insertará aquí -->
+        {{ tabla|safe }}
+
+        <!-- Aquí podrías añadir gráficos en el futuro -->
+    </div>
+</body>
+</html>

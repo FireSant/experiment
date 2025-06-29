@@ -1,0 +1,5 @@
+id_vehiculo,capacidad_max_kg,capacidad_max_m3,costo_km
+V-001,1000,6,0.5
+V-002,1200,7,0.55
+V-003,800,5,0.45
+V-004,1500,9,0.6

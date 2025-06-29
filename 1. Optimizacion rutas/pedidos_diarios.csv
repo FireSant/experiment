@@ -1,0 +1,201 @@
+id_pedido,id_cliente,direccion_entrega,latitud,longitud,peso_kg,volumen_m3,fecha_pedido
+PED-00001,CLI-017,"Via Florencia Bautista 4 Piso 8 , Machala",-3.259257,-79.955285,51.29,1.374,2025-06-07 00:00:00
+PED-00002,CLI-014,"Glorieta de Elpidio Barberá 32 Piso 9 , Riobamba",-1.668707,-78.65445,53.94,0.041,2025-06-03 00:00:00
+PED-00003,CLI-024,"Rambla Faustino Torrijos 1, Esmeraldas",0.944746,-79.651871,37.57,0.304,2025-06-13 00:00:00
+PED-00004,CLI-022,"Callejón de Carlota Castilla 83 Piso 2 , Quevedo",-1.040115,-79.482272,63.45,1.071,2025-06-02 00:00:00
+PED-00005,CLI-005,"Via Inés Soto 79, Esmeraldas",0.979995,-79.644077,8.71,0.837,2025-06-02 00:00:00
+PED-00006,CLI-021,"Avenida Yésica Barranco 17, Quito - Centro Histórico",-0.21795,-78.522072,30.47,0.448,2025-06-15 00:00:00
+PED-00007,CLI-032,"Paseo Griselda Mur 62 Apt. 52 , Ambato",-1.242213,-78.608472,19.12,0.949,2025-06-04 00:00:00
+PED-00008,CLI-019,"Callejón de Ciro Balaguer 7, Riobamba",-1.657661,-78.638973,73.54,0.189,2025-06-15 00:00:00
+PED-00009,CLI-027,"Acceso Fernanda Gonzalo 6 Apt. 26 , Cuenca",-2.887973,-79.021023,86.82,0.042,2025-06-08 00:00:00
+PED-00010,CLI-015,"Glorieta Cruz Aguiló 31 Apt. 46 , Durán",-2.162279,-79.823268,13.35,1.055,2025-06-14 00:00:00
+PED-00011,CLI-027,"Camino Esperanza Menendez 6, Quito - La Mariscal",-0.205369,-78.495595,81.82,0.416,2025-06-12 00:00:00
+PED-00012,CLI-021,"Plaza de Iker Losa 7, Guayaquil - Samborondón",-2.145474,-79.881096,59.54,0.248,2025-06-02 00:00:00
+PED-00013,CLI-002,"Via de Conrado Sastre 52 Puerta 9 , Guayaquil - Centro",-2.187863,-79.867612,42.04,0.567,2025-06-16 00:00:00
+PED-00014,CLI-037,"Paseo de Graciano Ballester 11 Piso 0 , Daule",-1.857727,-79.96781,56.0,1.06,2025-06-01 00:00:00
+PED-00015,CLI-047,"Paseo de Alicia Losada 97, Quito - La Mariscal",-0.217943,-78.491619,87.94,0.997,2025-06-09 00:00:00
+PED-00016,CLI-004,"Alameda de Reynaldo Barros 75 Apt. 49 , Ambato",-1.248933,-78.604764,74.0,1.331,2025-06-16 00:00:00
+PED-00017,CLI-033,"Avenida Mar Valderrama 71, Latacunga",-0.899504,-78.617893,95.22,1.062,2025-06-06 00:00:00
+PED-00018,CLI-026,"Callejón de Luis Miguel Huguet 70 Puerta 3 , Quevedo",-1.034686,-79.456635,78.15,1.226,2025-06-05 00:00:00
+PED-00019,CLI-007,"Cañada de Brígida Corral 61 Puerta 3 , Santo Domingo",-0.267562,-79.177851,48.23,0.082,2025-06-05 00:00:00
+PED-00020,CLI-042,"Ronda de Severiano Matas 20, Quito - Centro Histórico",-0.211285,-78.533029,50.23,0.563,2025-06-07 00:00:00
+PED-00021,CLI-021,"Urbanización Rebeca Bas 10 Apt. 72 , Latacunga",-0.946242,-78.608407,44.7,1.237,2025-06-04 00:00:00
+PED-00022,CLI-023,"Plaza de Silvio Martín 85 Piso 6 , Quito - La Mariscal",-0.202023,-78.491338,96.95,0.589,2025-06-09 00:00:00
+PED-00023,CLI-012,"Pasadizo de Tristán Torrents 7, Quito - Cumbayá",-0.210798,-78.441494,10.55,0.388,2025-06-12 00:00:00
+PED-00024,CLI-007,"Calle Isidoro Serrano 31, Loja",-4.007043,-79.20837,29.82,1.168,2025-06-04 00:00:00
+PED-00025,CLI-035,"Cañada de Rosalva Maestre 9 Apt. 78 , Riobamba",-1.6614,-78.677959,14.75,0.84,2025-06-09 00:00:00
+PED-00026,CLI-007,"Ronda de Celso Tena 95 Apt. 50 , Machala",-3.251865,-79.966481,56.5,0.688,2025-06-06 00:00:00
+PED-00027,CLI-050,"Urbanización Chus Piña 47, Quito - Centro Histórico",-0.228087,-78.524051,45.08,0.062,2025-06-06 00:00:00
+PED-00028,CLI-029,"Cuesta Agustina Mateu 77, Manta",-0.958345,-80.713332,94.21,0.471,2025-06-14 00:00:00
+PED-00029,CLI-011,"Via Bartolomé Morillo 36, Durán",-2.185211,-79.835775,46.14,0.445,2025-06-03 00:00:00
+PED-00030,CLI-042,"Ronda Apolonia Miranda 67, Guayaquil - Urdesa",-2.191517,-79.888362,41.53,0.753,2025-06-16 00:00:00
+PED-00031,CLI-021,"Avenida Olalla Barrena 25 Apt. 61 , Latacunga",-0.925458,-78.612495,56.44,0.85,2025-06-02 00:00:00
+PED-00032,CLI-022,"Cañada de Esperanza Morcillo 32 Apt. 12 , Quito - Cumbayá",-0.210468,-78.443133,13.1,1.164,2025-06-10 00:00:00
+PED-00033,CLI-008,"Pasaje Pastora Escamilla 17, Loja",-3.974047,-79.205732,7.6,0.02,2025-06-14 00:00:00
+PED-00034,CLI-049,"Via Adriana Grau 591, Cuenca",-2.890601,-79.005075,37.73,0.729,2025-06-07 00:00:00
+PED-00035,CLI-026,"Pasaje de Andrés Cobos 7 Puerta 5 , Daule",-1.864179,-79.979402,79.29,0.921,2025-06-16 00:00:00
+PED-00036,CLI-038,"Urbanización de Caridad Casanovas 42, Ambato",-1.258611,-78.626569,16.61,1.127,2025-06-05 00:00:00
+PED-00037,CLI-029,"Cañada de Vinicio Cerdán 56 Puerta 0 , Loja",-3.975753,-79.214159,21.46,0.657,2025-06-04 00:00:00
+PED-00038,CLI-035,"Avenida Eusebia Collado 39 Apt. 66 , Portoviejo",-1.059752,-80.439563,69.37,0.383,2025-06-09 00:00:00
+PED-00039,CLI-003,"Pasadizo Adela Gisbert 733 Puerta 7 , Durán",-2.197494,-79.813771,58.58,0.646,2025-06-01 00:00:00
+PED-00040,CLI-039,"Cuesta de Isaura Pedrero 4 Puerta 0 , Quito - Cumbayá",-0.21431,-78.452907,49.67,0.865,2025-06-03 00:00:00
+PED-00041,CLI-006,"Cuesta Gabino Díez 957 Piso 3 , Machala",-3.242429,-79.950436,39.59,1.081,2025-06-10 00:00:00
+PED-00042,CLI-049,"Acceso de Eufemia Zapata 41, Durán",-2.179731,-79.835553,51.45,0.174,2025-06-14 00:00:00
+PED-00043,CLI-022,"Callejón Chus Machado 3 Puerta 9 , Portoviejo",-1.055848,-80.453082,32.91,1.064,2025-06-10 00:00:00
+PED-00044,CLI-012,"Pasadizo de Rita Zamora 3, Cuenca",-2.923498,-79.018819,73.67,0.123,2025-06-06 00:00:00
+PED-00045,CLI-010,"Glorieta de Carmina Cortes 9 Apt. 62 , Cuenca",-2.893534,-79.007739,93.92,1.271,2025-06-10 00:00:00
+PED-00046,CLI-046,"Alameda Isa Salvador 28, Latacunga",-0.926852,-78.643643,32.65,0.213,2025-06-02 00:00:00
+PED-00047,CLI-019,"Pasaje Rosa María Roig 59, Manta",-0.968868,-80.70854,57.59,0.983,2025-06-12 00:00:00
+PED-00048,CLI-034,"Alameda de Teresita Alcaraz 639, Guayaquil - Urdesa",-2.175531,-79.908422,20.14,0.483,2025-06-04 00:00:00
+PED-00049,CLI-001,"Alameda Ángel Ángel 5, Guayaquil - Urdesa",-2.172776,-79.923258,57.71,1.483,2025-06-08 00:00:00
+PED-00050,CLI-016,"Camino de Emelina Mata 9 Apt. 11 , Ibarra",0.335038,-78.118835,61.19,0.759,2025-06-14 00:00:00
+PED-00051,CLI-026,"Avenida Esmeralda Gómez 3 Piso 6 , Cuenca",-2.904644,-79.002837,83.64,0.307,2025-06-13 00:00:00
+PED-00052,CLI-026,"Acceso de Teodosio Pérez 41, Guayaquil - Samborondón",-2.152976,-79.85981,69.12,1.189,2025-06-10 00:00:00
+PED-00053,CLI-032,"Pasadizo Consuela Amigó 914, Esmeraldas",0.972189,-79.653689,16.57,1.139,2025-06-04 00:00:00
+PED-00054,CLI-037,"Alameda Rufino Mata 251, Guayaquil - Centro",-2.190856,-79.905262,13.14,1.338,2025-06-03 00:00:00
+PED-00055,CLI-024,"Camino Salomón Ortega 62 Piso 4 , Ibarra",0.346326,-78.132659,26.38,0.554,2025-06-03 00:00:00
+PED-00056,CLI-001,"Callejón Cayetana Cerro 3, Portoviejo",-1.052337,-80.451745,37.64,1.064,2025-06-15 00:00:00
+PED-00057,CLI-018,"Callejón de Samanta Márquez 419 Puerta 3 , Loja",-3.990343,-79.190062,90.53,0.791,2025-06-12 00:00:00
+PED-00058,CLI-002,"Avenida de Asunción Tormo 30, Esmeraldas",0.951856,-79.670355,57.55,0.211,2025-06-02 00:00:00
+PED-00059,CLI-011,"Camino de Cesar Badía 88 Apt. 15 , Machala",-3.275499,-79.945201,40.0,0.903,2025-06-02 00:00:00
+PED-00060,CLI-027,"Paseo de Lisandro Barragán 254 Apt. 99 , Riobamba",-1.658539,-78.657965,80.41,0.594,2025-06-04 00:00:00
+PED-00061,CLI-015,"Plaza Yago Viña 11, Quevedo",-1.014947,-79.463272,91.0,0.873,2025-06-05 00:00:00
+PED-00062,CLI-021,"Pasadizo Custodio Tomas 9 Apt. 99 , Guayaquil - Centro",-2.202738,-79.886298,49.69,0.947,2025-06-14 00:00:00
+PED-00063,CLI-018,"Glorieta Carlito Royo 53 Apt. 76 , Ibarra",0.33885,-78.133703,53.55,1.153,2025-06-10 00:00:00
+PED-00064,CLI-024,"Calle de Inocencio Pinto 24, Durán",-2.188571,-79.82056,47.63,0.208,2025-06-14 00:00:00
+PED-00065,CLI-037,"Cuesta de Miguela Marí 22 Puerta 2 , Ibarra",0.368268,-78.131325,80.82,0.734,2025-06-12 00:00:00
+PED-00066,CLI-013,"Callejón Cleto Córdoba 77 Apt. 77 , Portoviejo",-1.062032,-80.464133,82.55,0.947,2025-06-10 00:00:00
+PED-00067,CLI-017,"Avenida de Flora Cardona 68, Ibarra",0.33391,-78.138083,99.26,0.503,2025-06-16 00:00:00
+PED-00068,CLI-008,"Paseo Fabio Lucena 867 Apt. 16 , Ibarra",0.340473,-78.111059,59.59,0.288,2025-06-07 00:00:00
+PED-00069,CLI-047,"Ronda de Irma Escamilla 5, Quito - Cumbayá",-0.193346,-78.436047,61.58,1.336,2025-06-12 00:00:00
+PED-00070,CLI-012,"Plaza de Mariano Fuertes 559 Apt. 41 , Ibarra",0.354139,-78.134249,25.41,1.065,2025-06-10 00:00:00
+PED-00071,CLI-038,"Urbanización de Fanny Ayala 468 Piso 1 , Daule",-1.861225,-79.973944,93.69,1.455,2025-06-09 00:00:00
+PED-00072,CLI-012,"Via Angelino Naranjo 6 Piso 3 , Manta",-0.97136,-80.712135,15.77,1.083,2025-06-16 00:00:00
+PED-00073,CLI-026,"Pasadizo Amada Morata 27 Piso 9 , Quito - Cumbayá",-0.201168,-78.43657,88.03,0.076,2025-06-06 00:00:00
+PED-00074,CLI-035,"Pasaje Lola Anglada 80 Piso 9 , Quito - Cumbayá",-0.189435,-78.44974,99.06,0.608,2025-06-02 00:00:00
+PED-00075,CLI-003,"Camino Chuy Campoy 70, Quito - La Mariscal",-0.216919,-78.487338,56.44,0.714,2025-06-12 00:00:00
+PED-00076,CLI-016,"Callejón Delia Clemente 92 Piso 7 , Quito - Centro Histórico",-0.207316,-78.501357,21.21,0.542,2025-06-04 00:00:00
+PED-00077,CLI-009,"Ronda de Marta Calderón 19 Piso 5 , Quito - Centro Histórico",-0.229546,-78.512933,64.3,0.77,2025-06-11 00:00:00
+PED-00078,CLI-027,"Paseo de Edelmira Cantón 1, Latacunga",-0.935443,-78.60628,31.5,1.133,2025-06-14 00:00:00
+PED-00079,CLI-013,"Pasadizo Aurora Acuña 40, Latacunga",-0.924687,-78.616558,96.79,0.492,2025-06-12 00:00:00
+PED-00080,CLI-035,"Cuesta de Celestino Aznar 15, Guayaquil - Centro",-2.193072,-79.874731,12.17,1.079,2025-06-12 00:00:00
+PED-00081,CLI-006,"Vial de Calixto Coll 77 Piso 8 , Guayaquil - Centro",-2.212282,-79.88226,6.41,0.552,2025-06-13 00:00:00
+PED-00082,CLI-029,"Urbanización Clemente Bernal 731, Daule",-1.868463,-79.984664,18.75,0.445,2025-06-13 00:00:00
+PED-00083,CLI-031,"Cañada Edmundo Peiró 71 Piso 2 , Riobamba",-1.662793,-78.64428,77.13,0.092,2025-06-12 00:00:00
+PED-00084,CLI-048,"Pasaje de Margarita Santana 804 Piso 4 , Latacunga",-0.956439,-78.616938,11.79,1.484,2025-06-04 00:00:00
+PED-00085,CLI-025,"Via de Anselma Acevedo 96, Manta",-0.969935,-80.714719,22.8,0.258,2025-06-10 00:00:00
+PED-00086,CLI-042,"Paseo Micaela Cabezas 19, Durán",-2.171878,-79.807726,3.03,1.409,2025-06-15 00:00:00
+PED-00087,CLI-014,"Calle Ibán Bas 9, Santo Domingo",-0.248749,-79.174879,72.69,0.892,2025-06-11 00:00:00
+PED-00088,CLI-020,"C. de Verónica Carbó 579 Piso 0 , Guayaquil - Samborondón",-2.134799,-79.856657,19.8,0.965,2025-06-09 00:00:00
+PED-00089,CLI-032,"Camino Jeremías Fajardo 909 Piso 7 , Guayaquil - Samborondón",-2.140305,-79.86424,3.46,1.431,2025-06-01 00:00:00
+PED-00090,CLI-002,"Plaza de Marisa Benet 942 Puerta 9 , Daule",-1.874058,-79.988435,22.94,1.182,2025-06-04 00:00:00
+PED-00091,CLI-018,"Urbanización Azahara Capdevila 74 Apt. 60 , Loja",-3.987773,-79.187797,96.38,0.409,2025-06-10 00:00:00
+PED-00092,CLI-026,"Via Eloísa Núñez 73 Apt. 31 , Ambato",-1.246086,-78.626885,34.24,0.251,2025-06-16 00:00:00
+PED-00093,CLI-008,"Pasaje de Javiera Cantero 58 Apt. 17 , Loja",-3.978635,-79.226687,33.17,1.168,2025-06-14 00:00:00
+PED-00094,CLI-009,"Rambla Iris Gutierrez 10 Apt. 32 , Guayaquil - Samborondón",-2.147302,-79.854693,60.0,0.928,2025-06-08 00:00:00
+PED-00095,CLI-021,"Callejón Jenny Ledesma 400 Piso 9 , Quito - Cumbayá",-0.188615,-78.43264,45.85,0.601,2025-06-12 00:00:00
+PED-00096,CLI-003,"Urbanización Fabricio Mendizábal 47, Quevedo",-1.031336,-79.473865,55.14,0.274,2025-06-04 00:00:00
+PED-00097,CLI-042,"Via Jennifer Rey 34 Puerta 2 , Portoviejo",-1.054337,-80.457692,81.31,0.913,2025-06-05 00:00:00
+PED-00098,CLI-046,"Paseo Adriana Galan 8 Puerta 8 , Quevedo",-1.0028,-79.46845,73.96,0.462,2025-06-13 00:00:00
+PED-00099,CLI-018,"Pasadizo de Amarilis Adadia 316 Piso 7 , Guayaquil - Samborondón",-2.137363,-79.870337,70.65,0.405,2025-06-01 00:00:00
+PED-00100,CLI-024,"Plaza Celestino Barrena 29 Apt. 90 , Ambato",-1.257775,-78.618731,75.24,1.197,2025-06-09 00:00:00
+PED-00101,CLI-006,"Cañada de Encarnita Garmendia 142 Piso 5 , Latacunga",-0.931865,-78.61721,60.31,0.447,2025-06-14 00:00:00
+PED-00102,CLI-007,"Urbanización Anselmo Jordán 82, Ibarra",0.339875,-78.125106,9.87,1.088,2025-06-06 00:00:00
+PED-00103,CLI-026,"Vial Remedios Lloret 8 Puerta 5 , Guayaquil - Samborondón",-2.144341,-79.872987,60.67,0.153,2025-06-12 00:00:00
+PED-00104,CLI-049,"Ronda de Fabiola Cañellas 134 Apt. 86 , Durán",-2.162473,-79.808836,63.92,0.422,2025-06-03 00:00:00
+PED-00105,CLI-022,"Rambla de Jaime Ferrero 36, Quito - Cumbayá",-0.19906,-78.442481,27.72,0.148,2025-06-15 00:00:00
+PED-00106,CLI-050,"Avenida de Cornelio Rosado 34 Apt. 89 , Santo Domingo",-0.23961,-79.197406,4.18,1.333,2025-06-16 00:00:00
+PED-00107,CLI-005,"Pasadizo de Amaro Bueno 166, Santo Domingo",-0.23056,-79.165347,57.3,0.526,2025-06-06 00:00:00
+PED-00108,CLI-007,"Callejón de Eligio Castells 31, Daule",-1.859399,-79.971925,73.89,1.429,2025-06-10 00:00:00
+PED-00109,CLI-046,"Callejón Olivia Gelabert 36 Puerta 5 , Quito - Cumbayá",-0.211358,-78.446104,29.07,0.401,2025-06-16 00:00:00
+PED-00110,CLI-014,"C. Óscar Talavera 24, Riobamba",-1.683357,-78.642698,29.39,0.029,2025-06-10 00:00:00
+PED-00111,CLI-015,"Camino Jose Manuel Sanchez 84 Puerta 2 , Machala",-3.25299,-79.963343,86.7,0.686,2025-06-01 00:00:00
+PED-00112,CLI-047,"Camino de Hilda Alemany 5, Santo Domingo",-0.241954,-79.18478,97.09,1.108,2025-06-13 00:00:00
+PED-00113,CLI-006,"Pasaje Esteban Coca 3, Manta",-0.982318,-80.720274,9.64,0.04,2025-06-04 00:00:00
+PED-00114,CLI-020,"Cuesta Eloy Oliver 4 Puerta 9 , Cuenca",-2.900165,-79.013229,7.49,1.412,2025-06-14 00:00:00
+PED-00115,CLI-046,"Acceso de Nilda Lloret 12 Puerta 1 , Guayaquil - Centro",-2.203528,-79.898921,4.72,0.321,2025-06-04 00:00:00
+PED-00116,CLI-039,"Pasaje de Jose Antonio Carro 5, Guayaquil - Samborondón",-2.141806,-79.87892,9.17,1.287,2025-06-07 00:00:00
+PED-00117,CLI-013,"Pasadizo Lina Cisneros 994, Riobamba",-1.678137,-78.649698,14.31,1.328,2025-06-08 00:00:00
+PED-00118,CLI-030,"Cuesta Vicente Álvaro 6, Latacunga",-0.932768,-78.612554,31.38,0.682,2025-06-05 00:00:00
+PED-00119,CLI-025,"Glorieta de Elba Borrell 84 Puerta 6 , Ambato",-1.238344,-78.601283,68.22,1.145,2025-06-13 00:00:00
+PED-00120,CLI-042,"Callejón de Toni Ponce 592, Latacunga",-0.930314,-78.605716,15.01,0.721,2025-06-06 00:00:00
+PED-00121,CLI-035,"Vial Rubén Bonilla 26, Latacunga",-0.92507,-78.61925,30.84,0.705,2025-06-07 00:00:00
+PED-00122,CLI-039,"Camino Lucio Vall 21 Apt. 36 , Santo Domingo",-0.259764,-79.182692,53.42,1.325,2025-06-04 00:00:00
+PED-00123,CLI-001,"Urbanización Olegario Rivero 23 Puerta 8 , Loja",-3.979357,-79.206712,67.73,0.181,2025-06-04 00:00:00
+PED-00124,CLI-012,"C. Artemio Daza 3 Puerta 2 , Guayaquil - Samborondón",-2.151563,-79.860178,66.23,0.569,2025-06-07 00:00:00
+PED-00125,CLI-046,"Pasaje Liliana Saez 122, Latacunga",-0.940126,-78.618003,83.56,0.182,2025-06-01 00:00:00
+PED-00126,CLI-011,"Avenida Albina Bonilla 38 Apt. 89 , Daule",-1.850436,-79.981824,2.58,1.032,2025-06-03 00:00:00
+PED-00127,CLI-007,"Rambla Ale Barrios 14, Quito - La Mariscal",-0.212743,-78.499094,56.65,0.656,2025-06-14 00:00:00
+PED-00128,CLI-026,"C. de Rubén Boada 1 Puerta 6 , Guayaquil - Centro",-2.226132,-79.877532,35.34,1.364,2025-06-10 00:00:00
+PED-00129,CLI-045,"Pasadizo de Soledad Cañellas 73, Ambato",-1.252127,-78.60382,1.63,1.347,2025-06-14 00:00:00
+PED-00130,CLI-041,"Callejón de Omar Pastor 552, Quevedo",-1.04426,-79.458582,35.41,0.367,2025-06-04 00:00:00
+PED-00131,CLI-003,"Acceso Julieta Bou 93 Puerta 9 , Guayaquil - Centro",-2.21181,-79.88661,83.06,0.809,2025-06-12 00:00:00
+PED-00132,CLI-030,"Vial de Martin Serna 107, Esmeraldas",0.969312,-79.638271,30.73,1.364,2025-06-07 00:00:00
+PED-00133,CLI-004,"Alameda de Cristian Enríquez 47 Piso 9 , Ibarra",0.339567,-78.128908,17.08,0.559,2025-06-06 00:00:00
+PED-00134,CLI-020,"Urbanización Luís Sacristán 88, Ibarra",0.329703,-78.105251,87.49,1.449,2025-06-03 00:00:00
+PED-00135,CLI-040,"Calle Emelina Acedo 988 Apt. 93 , Manta",-0.961394,-80.714572,60.23,1.388,2025-06-10 00:00:00
+PED-00136,CLI-005,"C. de Amor Mir 56, Machala",-3.26548,-79.966545,76.6,0.706,2025-06-05 00:00:00
+PED-00137,CLI-049,"Vial Virgilio Larrañaga 12, Santo Domingo",-0.226223,-79.179568,38.99,0.324,2025-06-03 00:00:00
+PED-00138,CLI-021,"Pasaje Azahara Pazos 4, Durán",-2.195171,-79.83639,4.96,0.565,2025-06-03 00:00:00
+PED-00139,CLI-049,"Rambla María Fernanda Múñiz 595 Puerta 3 , Portoviejo",-1.049194,-80.443221,88.09,1.351,2025-06-07 00:00:00
+PED-00140,CLI-005,"Avenida de Concepción Urrutia 656, Ambato",-1.232669,-78.610048,47.93,0.363,2025-06-08 00:00:00
+PED-00141,CLI-025,"Camino Tadeo Gallart 18 Piso 1 , Durán",-2.170134,-79.83006,11.26,0.713,2025-06-10 00:00:00
+PED-00142,CLI-050,"Urbanización Gil Coloma 4 Puerta 9 , Manta",-0.950778,-80.717305,79.61,1.016,2025-06-14 00:00:00
+PED-00143,CLI-048,"Via Tecla Andrés 20 Puerta 9 , Latacunga",-0.919555,-78.616817,27.97,0.72,2025-06-07 00:00:00
+PED-00144,CLI-033,"Alameda Primitivo Jurado 3, Guayaquil - Centro",-2.211528,-79.876559,24.84,1.152,2025-06-12 00:00:00
+PED-00145,CLI-006,"Pasadizo Pancho Valderrama 20 Puerta 9 , Guayaquil - Samborondón",-2.15104,-79.852459,19.91,0.742,2025-06-13 00:00:00
+PED-00146,CLI-010,"Camino Lisandro Oliva 26, Latacunga",-0.942711,-78.617796,35.64,0.913,2025-06-08 00:00:00
+PED-00147,CLI-020,"Calle de Marco Tolosa 550, Machala",-3.25458,-79.963741,60.3,0.682,2025-06-10 00:00:00
+PED-00148,CLI-002,"Alameda de Guadalupe Gómez 33 Apt. 41 , Loja",-3.995055,-79.220442,40.69,1.079,2025-06-16 00:00:00
+PED-00149,CLI-004,"Cuesta Marcial Amorós 17 Piso 5 , Ibarra",0.33942,-78.125151,75.78,1.072,2025-06-10 00:00:00
+PED-00150,CLI-027,"Rambla de Rodrigo Cobo 60 Piso 2 , Guayaquil - Samborondón",-2.155016,-79.873265,25.51,0.71,2025-06-11 00:00:00
+PED-00151,CLI-014,"Ronda de Isabela Palomino 6 Apt. 30 , Latacunga",-0.935167,-78.590629,40.02,0.834,2025-06-13 00:00:00
+PED-00152,CLI-018,"Cuesta de Clementina Arjona 7, Ambato",-1.254889,-78.611576,93.94,1.008,2025-06-03 00:00:00
+PED-00153,CLI-032,"Cuesta María Teresa Castell 6, Guayaquil - Samborondón",-2.1493,-79.870443,18.68,0.451,2025-06-08 00:00:00
+PED-00154,CLI-001,"Paseo Fabiola Soto 2 Puerta 4 , Daule",-1.873753,-79.984713,20.85,0.207,2025-06-13 00:00:00
+PED-00155,CLI-037,"Vial de Carolina Palomino 47, Machala",-3.260584,-79.9616,75.83,1.129,2025-06-06 00:00:00
+PED-00156,CLI-010,"Pasadizo Trinidad Almeida 546, Ibarra",0.334877,-78.107098,54.85,1.493,2025-06-12 00:00:00
+PED-00157,CLI-033,"Acceso María Dolores León 71 Piso 1 , Riobamba",-1.663089,-78.649459,79.65,1.402,2025-06-02 00:00:00
+PED-00158,CLI-037,"Acceso de Esteban Pera 775, Guayaquil - Centro",-2.185892,-79.883133,76.5,0.985,2025-06-06 00:00:00
+PED-00159,CLI-017,"Pasadizo de Merche Mármol 60, Guayaquil - Samborondón",-2.163696,-79.877023,61.13,0.432,2025-06-06 00:00:00
+PED-00160,CLI-035,"Ronda Sonia Gallo 450 Puerta 5 , Cuenca",-2.893761,-79.026172,55.35,0.886,2025-06-12 00:00:00
+PED-00161,CLI-002,"Glorieta Alondra Hurtado 72 Apt. 75 , Ambato",-1.249891,-78.625878,52.7,1.289,2025-06-11 00:00:00
+PED-00162,CLI-038,"Vial Mateo Fernandez 168 Puerta 2 , Manta",-0.960406,-80.729362,23.24,1.059,2025-06-10 00:00:00
+PED-00163,CLI-019,"Glorieta Román Plaza 68 Apt. 31 , Portoviejo",-1.052153,-80.46044,14.71,0.109,2025-06-06 00:00:00
+PED-00164,CLI-035,"Pasaje Andrés Robles 100, Ibarra",0.335585,-78.115378,79.18,0.928,2025-06-08 00:00:00
+PED-00165,CLI-035,"Cuesta de Rafa Alfaro 51 Puerta 1 , Cuenca",-2.902387,-78.990293,54.58,1.375,2025-06-07 00:00:00
+PED-00166,CLI-041,"Glorieta Fabián Osuna 7 Puerta 0 , Quito - La Mariscal",-0.207458,-78.494003,43.23,1.31,2025-06-06 00:00:00
+PED-00167,CLI-033,"Acceso Alejo Pallarès 938 Puerta 9 , Manta",-0.959497,-80.723587,85.17,0.93,2025-06-11 00:00:00
+PED-00168,CLI-049,"Ronda Gil Barco 811, Guayaquil - Samborondón",-2.144677,-79.87572,50.65,0.462,2025-06-16 00:00:00
+PED-00169,CLI-023,"Camino Macario Cerdán 94, Santo Domingo",-0.25035,-79.19393,17.05,1.073,2025-06-15 00:00:00
+PED-00170,CLI-015,"Calle Marita Tenorio 260, Durán",-2.176209,-79.827154,23.62,0.893,2025-06-12 00:00:00
+PED-00171,CLI-008,"Via Gertrudis Nogueira 16 Piso 1 , Santo Domingo",-0.238973,-79.174666,6.96,0.121,2025-06-12 00:00:00
+PED-00172,CLI-040,"Callejón de José Luis Herrera 94 Apt. 69 , Daule",-1.86121,-79.991259,9.16,1.191,2025-06-06 00:00:00
+PED-00173,CLI-001,"Glorieta de Tristán Marin 23, Santo Domingo",-0.243314,-79.188058,33.16,0.601,2025-06-02 00:00:00
+PED-00174,CLI-035,"Cuesta Elisa Barba 696 Apt. 13 , Daule",-1.870189,-79.976313,86.76,0.995,2025-06-14 00:00:00
+PED-00175,CLI-019,"Ronda Gilberto Priego 23, Machala",-3.264488,-79.949665,38.14,0.646,2025-06-12 00:00:00
+PED-00176,CLI-032,"Callejón de Ibán Pera 8 Piso 5 , Cuenca",-2.885723,-79.011953,67.94,0.921,2025-06-02 00:00:00
+PED-00177,CLI-018,"Alameda Adela Benito 15, Loja",-3.994755,-79.181696,56.76,0.481,2025-06-11 00:00:00
+PED-00178,CLI-038,"Paseo Tristán Palau 92 Piso 8 , Daule",-1.866028,-79.984367,31.43,0.43,2025-06-10 00:00:00
+PED-00179,CLI-036,"Alameda Bartolomé Cabello 26, Riobamba",-1.668625,-78.670985,70.51,0.911,2025-06-01 00:00:00
+PED-00180,CLI-022,"C. Luis Alegre 1, Ibarra",0.336287,-78.133424,8.51,0.144,2025-06-09 00:00:00
+PED-00181,CLI-009,"Alameda Rosa María Expósito 4, Esmeraldas",0.981005,-79.66155,55.91,0.138,2025-06-01 00:00:00
+PED-00182,CLI-020,"Avenida de Fabio Antúnez 94 Apt. 81 , Ibarra",0.349508,-78.106417,65.04,0.655,2025-06-10 00:00:00
+PED-00183,CLI-037,"Via de Rosenda Ferrán 70, Quito - La Mariscal",-0.194775,-78.493271,79.65,0.987,2025-06-05 00:00:00
+PED-00184,CLI-016,"Pasaje Isidoro Pareja 20 Puerta 4 , Loja",-4.002713,-79.211817,33.7,1.387,2025-06-08 00:00:00
+PED-00185,CLI-013,"Acceso Matías Domingo 93 Puerta 5 , Durán",-2.187146,-79.827336,18.68,0.718,2025-06-03 00:00:00
+PED-00186,CLI-041,"Avenida de Dorotea Olmedo 1, Quito - Cumbayá",-0.198265,-78.449527,59.26,0.745,2025-06-14 00:00:00
+PED-00187,CLI-041,"Glorieta de Luisina Gallo 35, Guayaquil - Samborondón",-2.125801,-79.868892,51.57,0.274,2025-06-06 00:00:00
+PED-00188,CLI-046,"Glorieta Ibán Cruz 968 Puerta 7 , Manta",-0.969989,-80.71435,89.09,1.322,2025-06-08 00:00:00
+PED-00189,CLI-012,"Urbanización Joaquina Terrón 90 Piso 9 , Ambato",-1.235138,-78.621003,5.6,0.414,2025-06-13 00:00:00
+PED-00190,CLI-038,"Camino Nayara Viñas 765, Latacunga",-0.939185,-78.614279,49.2,0.914,2025-06-02 00:00:00
+PED-00191,CLI-035,"Paseo Mateo Sierra 473 Apt. 54 , Santo Domingo",-0.250107,-79.195859,47.67,0.265,2025-06-07 00:00:00
+PED-00192,CLI-026,"Cuesta Tecla Bejarano 983 Puerta 3 , Manta",-0.95233,-80.704205,41.54,1.022,2025-06-07 00:00:00
+PED-00193,CLI-036,"Plaza de Flavia Olivera 59, Cuenca",-2.895167,-79.014044,63.23,1.08,2025-06-12 00:00:00
+PED-00194,CLI-006,"Acceso Salomón Ripoll 681 Apt. 96 , Portoviejo",-1.043616,-80.462142,44.04,0.845,2025-06-06 00:00:00
+PED-00195,CLI-029,"Cañada Custodio Trujillo 58 Apt. 03 , Riobamba",-1.661495,-78.650631,30.03,0.015,2025-06-13 00:00:00
+PED-00196,CLI-020,"Alameda Gala Duarte 64, Esmeraldas",0.956766,-79.652238,52.06,0.044,2025-06-13 00:00:00
+PED-00197,CLI-028,"Via de Carina Ribas 18 Apt. 91 , Loja",-3.984396,-79.204928,43.17,0.084,2025-06-04 00:00:00
+PED-00198,CLI-025,"Glorieta de Salvador Cañellas 70 Apt. 75 , Esmeraldas",0.949594,-79.655542,45.05,1.372,2025-06-13 00:00:00
+PED-00199,CLI-015,"Paseo de Débora Lerma 95 Apt. 93 , Loja",-3.996091,-79.201731,79.93,1.234,2025-06-01 00:00:00
+PED-00200,CLI-020,"Cuesta Armando Cervantes 605, Portoviejo",-1.063626,-80.45949,72.79,1.266,2025-06-13 00:00:00
