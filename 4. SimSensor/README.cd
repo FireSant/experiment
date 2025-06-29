@@ -1,0 +1,64 @@
+# Pipeline de Procesamiento de Datos de Sensores Industriales en AWS
+
+## Descripción del Proyecto
+
+Este proyecto implementa un pipeline de datos 100% serverless en AWS para la ingesta, procesamiento y análisis en tiempo real de datos simulados de sensores industriales. La arquitectura está diseñada para ser escalable, resiliente y costo-eficiente, demostrando un flujo de trabajo completo desde la generación de datos hasta la alerta de anomalías.
+
+## Diagrama de Arquitectura esta en el archivo "graph TD.txt"
+
+
+## Características Principales
+
+-   **Ingestión de Datos en Lotes:** Un simulador en Python genera datos y los sube en lotes a S3 para optimizar costos y eficiencia.
+-   **Procesamiento Basado en Eventos:** Una función AWS Lambda se activa automáticamente al recibir nuevos datos, sin necesidad de intervención manual.
+-   **Almacenamiento Dual (Hot & Cold):**
+    -   **Hot Storage:** El último estado de cada sensor se almacena en Amazon DynamoDB para consultas rápidas.
+    -   **Cold Storage:** Los datos históricos se guardan en un bucket de S3, formando un Data Lake para análisis futuros.
+-   **Detección de Anomalías y Alertas:** El sistema analiza los datos en tiempo real y envía alertas por correo electrónico a través de Amazon SNS si se superan umbrales predefinidos (ej. sobretemperatura).
+-   **Serverless y Escalable:** Construido enteramente con servicios gestionados de AWS, lo que permite escalar automáticamente según la carga y pagar solo por el uso.
+
+## Tecnologías Utilizadas
+
+-   **Cloud:** AWS (S3, Lambda, DynamoDB, SNS, IAM, CloudWatch)
+-   **Lenguaje de Programación:** Python
+-   **Librerías Principales:** Boto3 (AWS SDK para Python)
+-   **Bases de Datos:** Amazon DynamoDB (NoSQL)
+-   **Conceptos Clave:** ETL, Data Pipelines, Serverless, Real-Time Processing, Data Lake, IaC (Infraestructura como Código, conceptualmente).
+
+## Configuración y Despliegue
+
+Para replicar este proyecto, sigue estos pasos:
+
+1.  **Prerrequisitos:**
+    -   Cuenta de AWS activa.
+    -   Python 3.8+ instalado.
+    -   AWS CLI configurada .
+    -   Librería Boto3.
+
+2.  **Configuración de Recursos AWS:**
+    -   Crear dos buckets de S3: uno para datos crudos y otro para datos procesados
+    -   Crear una tabla en DynamoDB con `id_sensor` (String) como Clave de Partición.
+    -   Crear un tema en SNS y suscribir un correo electrónico para recibir las alertas.
+
+3.  **Configuración del Simulador (`sensor_simulator.py`):**
+    -   Actualizar la variable `S3_BUCKET_NAME` con el nombre de tu bucket de datos crudos.
+
+4.  **Despliegue de la Función Lambda:**
+    -   Crear un rol IAM con permisos para S3, DynamoDB, SNS y CloudWatch Logs.
+    *   Crear una función Lambda con el código de `lambda_function.py`.
+    *   Configurar las siguientes variables de entorno en la Lambda:
+        *   `PROCESSED_BUCKET_NAME`: Nombre de tu bucket de datos procesados.
+        *   `DYNAMODB_TABLE_NAME`: Nombre de tu tabla de DynamoDB.
+        *   `SNS_TOPIC_ARN`: El ARN de tu tema de SNS.
+    *   Configurar un trigger de S3 para que la Lambda se active con la creación de nuevos objetos en el bucket de datos crudos.
+
+## Cómo Usarlo
+
+1.  Ejecuta el script del simulador en tu máquina local: `python sensor_simulator.py`.
+2.  Observa la terminal para ver los datos generados y los archivos subidos a S3.
+3.  Verifica en la consola de AWS:
+    -   Los archivos aparecen y desaparecen del bucket de datos crudos.
+    -   Los archivos procesados aparecen en el bucket de datos procesados.
+    -   Los ítems se actualizan en la tabla de DynamoDB.
+    -   Recibirás un correo electrónico cuando se simule una anomalía.
+    -   Puedes ver los logs de ejecución en CloudWatch.
