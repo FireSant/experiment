@@ -1,0 +1,25 @@
+graph TD
+    subgraph "Entorno Local"
+        A[Simulador de Sensores (Python Local)]
+    end
+
+    subgraph "Nube de AWS (Región: us-east-1, por ejemplo)"
+        B(AWS S3 Bucket - 'raw-sensor-data')
+        C{AWS Lambda (Procesamiento)}
+        D(Amazon DynamoDB Table - 'sensor_status')
+        E(AWS S3 Bucket - 'processed-sensor-data')
+        F(Amazon SNS Topic - 'sensor_alerts')
+        G[Usuario/Admin (Tu Email)]
+    end
+
+    A -->|1. Sube archivo JSON (batch)| B
+    B -->|2. Activa por evento (S3:ObjectCreated)| C
+    C -->|3a. Escribe último estado| D
+    C -->|3b. Guarda dato procesado| E
+    C -->|3c. Si hay anomalía, publica mensaje| F
+    F -->|4. Envía alerta| G
+
+    classDef local fill:#cde,stroke:#333,stroke-width:2px;
+    classDef aws fill:#ffc,stroke:#333,stroke-width:2px;
+    class A local;
+    class B,C,D,E,F,G aws;
