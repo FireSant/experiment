@@ -1,0 +1,29 @@
+Este proyecto simulará el proceso de una empresa de distribución que recibe pedidos diarios y necesita planificar sus rutas de entrega. Será 100% local, rápido de desplegar.
+
+El sistema simula el proceso de recibir pedidos diarios y una flota de vehículos, y luego:
+
+1. Procesa los datos para asegurar su calidad.
+2. Aplica técnicas de Machine Learning para agrupar geográficamente los pedidos.
+3. Genera un plan de rutas preliminar.
+4. Presenta los resultados en un dashboard interactivo para una fácil interpretación. 
+
+
+        graph TD
+    A[1. Fuente de Datos: Archivos CSV] --> B{2. Pipeline ETL (Script Python)};
+    B --> C[3. Base de Datos Local (SQLite)];
+    C --> D{4. Lógica de Optimización (Script Python)};
+    D --> E[5. Salida: Plan de Rutas (CSV/JSON)];
+    C --> F[6. Dashboard de Análisis (Streamlit)];
+
+    subgraph "Archivos de Entrada"
+        A
+    end
+    subgraph "Procesamiento y Almacenamiento"
+        B
+        C
+    end
+    subgraph "Análisis y Resultados"
+        D
+        E
+        F
+    end
