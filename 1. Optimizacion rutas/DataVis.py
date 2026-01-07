@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas as pd
 import sqlite3
+import os
+
+# Ruta a la base de datos  
+current_dir = os.path.dirname(os.path.abspath(__file__))
+db_path = os.path.join(current_dir, 'logistica.db')
 
 # --- Definimos una paleta de colores ---
 # Puedes añadir más colores si tienes más de 3 rutas/vehículos

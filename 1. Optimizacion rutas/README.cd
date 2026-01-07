@@ -5,7 +5,7 @@ El sistema simula el proceso de recibir pedidos diarios y una flota de vehículo
 1. Procesa los datos para asegurar su calidad.
 2. Aplica técnicas de Machine Learning para agrupar geográficamente los pedidos.
 3. Genera un plan de rutas preliminar.
-4. Presenta los resultados en un dashboard interactivo para una fácil interpretación. 
+4. Presenta los resultados en un dashboard interactivo para una fácil interpretación.
 
 
         graph TD
