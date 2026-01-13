@@ -1,0 +1,29 @@
+# Registro de versiones y novedades
+
+Flujo de trabajo: Revisar correcciones y mejoras, desarrollar la tarea, probar mejora, registrar mejoras o errores capturados, subir a git.
+        Se registrara lo siguiente: Primero la version y fecha. Luego: `Funcionalidades`, `Problemas conocidos`, `Correcciones y merjoras`, `Sugerencias`
+
+
+ 
+##  v0.0.1  - 2026-01-12
+### Funcionalidades
+*   Interfaz Web App: Migración de macros de Excel a una aplicación web completa con HTML/CSS/JS.
+*   Catálogo Dinámico: Implementación de filtros por zona (Piernas, Tren Superior, etc.) para selección rápida de ejercicios.
+*   Soporte Multimodal: Lógica diferenciada para ingresos de Gimnasio y Pista en un solo formulario.
+
+### Problemas conocidos
+*   Falla en Cascada: Solo se está guardando el registro de nivel 2 (detalles de ejercicios) pero no el nivel 1 (cabecera de la sesión).
+*   UX Post-Guardado: La página se queda en blanco tras presionar guardar.
+*   Complejidad de IDs: Los IDs actuales para Gimnasio y Pista son demasiado complejos y dificultan la lectura manual en la base de datos.
+*   Filtros por zona: No esta funcionando. Se evaluara la practicidad de la funcionalidad y su posible retiro.
+
+### Correcciones y mejoras
+
+
+### Sugerencias
+* Probar happy paths y edge cases
+* Cronometrar el tiempo de uso de la app para la tarea 
+* Cambio en la logica de base de datos de atletas y Userflow:
+    - Opcion A: Que el usuario cuando se registre conozca su Numero id unico para colocarlo durante el userflow
+    - Opcion B. Que al inicio de la ejecucion de la app, se obtengan todos los nombres de usuarios y sus ID. que el usuario pueda consultar su id segun su nombre. Seria un poco sin sentido pues seria mejor que solo haga el registro con su nombre y como se obtuvieron todos los usuarios de la bbdd, el autocompletar ayude a evitar errores       
+
