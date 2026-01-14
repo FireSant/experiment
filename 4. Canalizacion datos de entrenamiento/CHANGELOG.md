@@ -49,5 +49,5 @@ Flujo de trabajo: Revisar correcciones y mejoras, desarrollar la tarea, probar m
 * Cambio en la logica de base de datos de atletas y Userflow:
     - Opcion A: Que el usuario cuando se registre conozca su Numero id unico para colocarlo durante el userflow
     - Opcion B. Que al inicio de la ejecucion de la app, se obtengan todos los nombres de usuarios y sus ID. que el usuario pueda consultar su id segun su nombre. Seria un poco sin sentido pues seria mejor que solo haga el registro con su nombre y como se obtuvieron todos los usuarios de la bbdd, el autocompletar ayude a evitar errores     
-* Agregar tiempo de descanso entre series de un ejercicio
+* Agregar box de tiempo de descanso entre series de un ejercicio
   
