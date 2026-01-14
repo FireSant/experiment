@@ -25,37 +25,57 @@ function guardarTodo(datos) {
     const ss = SpreadsheetApp.getActiveSpreadsheet();
     const hojas = ss.getSheets();
 
-    // Buscamos las hojas de forma segura ignorando espacios
+    // 1. Vinculación robusta de hojas
     const hojaSesion = hojas.find(h => h.getName().trim() === "Sesion_Entrenamiento");
     const hojaGim = hojas.find(h => h.getName().trim() === "Registros_Gimnasio");
     const hojaPista = hojas.find(h => h.getName().trim() === "Registros_Pista");
 
-    if (!hojaSesion || !hojaGim || !hojaPista) {
-      throw new Error("No se encontró una pestaña. Revisa que los nombres en el Excel sean: Sesion_Entrenamiento, Registros_Gimnasio y Registros_Pista");
-    }
+    if (!hojaSesion || !hojaGim || !hojaPista) throw new Error("Faltan pestañas en el Excel.");
 
-    const idSesion = (datos.id_atleta || "S") + "_" + datos.fecha.replace(/-/g, "");
+    // 2. Generar ID de Sesión (Nivel 1)
+    const idSesion = datos.id_atleta + "_" + datos.fecha.replace(/-/g, "");
 
-    // Guardar Cabecera
-    hojaSesion.appendRow([
-      idSesion, datos.id_atleta, datos.fecha, datos.tipo_sesion, 
-      datos.fase, datos.sueno, datos.fatiga, datos.rpe, 
-      datos.limitante, datos.molestias
-    ]);
+    // 3. Calcular ID Incremental por Atleta (Nivel 2)
+    // Contamos registros previos del atleta en la hoja correspondiente
+    const hojaDestino = (datos.tipo_sesion === "Gimnasio") ? hojaGim : hojaPista;
+const valores = hojaDestino.getDataRange().getValues();
 
-    // Guardar Detalle
+// 2. Calcular ID Incremental específica para este Atleta
+let contadorAtleta = 1;
+
+if (valores.length > 1) {
+  // Filtramos las filas que pertenecen a este atleta y sumamos 1
+  contadorAtleta = valores.filter(fila => {
+    let idSesionFila = String(fila[0]); // Forzamos que sea texto para evitar el error .split
+    return idSesionFila.startsWith(datos.id_atleta + "_");
+  }).length + 1;
+}
+
+// Convertimos el número a formato de dos dígitos (ej: 01, 04, 12)
+const idIncremental = contadorAtleta.toString().padStart(2, '0');
+
+// 3. Guardar Nivel 1 (Cabecera) - Ahora lo ponemos ANTES del Nivel 2 para asegurar que se cree
+const idSesionUnica = datos.id_atleta + "_" + datos.fecha.replace(/-/g, "");
+
+hojaSesion.appendRow([
+  idSesionUnica, datos.id_atleta, datos.fecha, datos.tipo_sesion, 
+  datos.fase, datos.sueno, datos.fatiga, datos.rpe, 
+  datos.limitante, datos.molestias
+]);
+
+// 4. Guardar Nivel 2 (Ejercicios) con la ID Incremental del Atleta
+datos.ejercicios.forEach(ej => {
+  if (ej.nombre) {
     if (datos.tipo_sesion === "Gimnasio") {
-      datos.ejercicios.forEach(ej => {
-        if(ej.nombre) hojaGim.appendRow([idSesion, Utilities.getUuid(), ej.nombre, ej.series, ej.reps, ej.peso, ej.rir, ej.notas]);
-      });
+      hojaGim.appendRow([idSesionUnica, idIncremental, ej.nombre, ej.series, ej.reps, ej.peso, ej.rir, ej.notas]);
     } else {
-      datos.ejercicios.forEach(ej => {
-        if(ej.nombre) hojaPista.appendRow([idSesion, Utilities.getUuid(), ej.nombre, ej.serie_num, ej.reps, ej.metrica, ej.notas]);
-      });
+      hojaPista.appendRow([idSesionUnica, idIncremental, ej.nombre, ej.serie_num, ej.reps, ej.metrica, ej.notas]);
     }
-    
-    return "EXITO"; 
+  }
+});
+
+return "EXITO"; 
   } catch (e) {
-    return "ERROR EN SERVIDOR: " + e.toString();
+    return "ERROR: " + e.toString();
   }
 }
