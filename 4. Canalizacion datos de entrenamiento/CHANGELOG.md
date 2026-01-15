@@ -38,6 +38,7 @@ Flujo de trabajo: Revisar correcciones y mejoras, desarrollar la tarea, probar m
 ### Problemas conocidos
 *   Filtros por zona: No esta funcionando. Se evaluara la practicidad de la funcionalidad y su posible retiro.
 
+
 ### Correcciones y mejoras
 *   Falla en Cascada: Se envian todos los datos
 *   UX Post-Guardado: Se corrigio la función  enviar() del archivo Index.html que use un mensaje de confirmación que no fuerce la recarga inmediata, permitiendo ver que los datos se procesaron.
@@ -51,3 +52,21 @@ Flujo de trabajo: Revisar correcciones y mejoras, desarrollar la tarea, probar m
     - Opcion B. Que al inicio de la ejecucion de la app, se obtengan todos los nombres de usuarios y sus ID. que el usuario pueda consultar su id segun su nombre. Seria un poco sin sentido pues seria mejor que solo haga el registro con su nombre y como se obtuvieron todos los usuarios de la bbdd, el autocompletar ayude a evitar errores     
 * Agregar box de tiempo de descanso entre series de un ejercicio
   
+## v0.0.3  - 2026-01-14 🛠️
+### Funcionalidades
+*   Interfaz Web App: Formulario completo web completa con HTML/CSS/JS.
+*   Catálogo Dinámico: Implementación de filtros por zona (Piernas, Tren Superior, etc.) para selección rápida de ejercicios.
+*   Soporte Multimodal: Lógica diferenciada para ingresos de Gimnasio y Pista en un solo formulario.
+*   Módulo de Registro de Atletas con ID autoincremental
+
+### Problemas conocidos
+*   Filtros por zona: No esta funcionando. Se evaluara la practicidad de la funcionalidad y su posible retiro.
+### Correcciones y mejoras
+*   Refactor: Simplificación de IDs de nivel 2. Se elimina el uso de UUIDs y se adopta un sistema de ID de Sesión compuesto (Atleta_Fecha_TipoSesion) que actúa como clave relacional, permitiendo sesiones múltiples por día y mejorando la legibilidad de la base de datos
+*   Feature: Implementación de módulo de Registro de Atletas con ID autoincremental (01, 02...). Incluye 
+*   Feature: Inclusión de campo 'Descanso' en registros de Nivel 2 (Gimnasio y Pista) posicionado antes de las notas de serie para mejorar la trazabilidad del entrenamiento.
+
+### Sugerencias
+* Probar happy paths y edge cases
+* Cronometrar el tiempo de uso de la app para la tarea 
+* Evaluar si el usuario debe ingresar su nombre o ID unico de la app para registrar sus entrenamientos.
