@@ -8,49 +8,44 @@
     body { font-family: 'Roboto', sans-serif; background-color: #f8f9fa; padding: 20px; color: #3c4043; }
     .container { max-width: 950px; margin: 0 auto; }
     .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12); margin-bottom: 20px; }
-    
     .row { display: flex; gap: 12px; margin-bottom: 15px; flex-wrap: wrap; align-items: flex-end; }
     .input-group { display: flex; flex-direction: column; flex: 1; min-width: 100px; }
     label { font-size: 11px; font-weight: bold; margin-bottom: 4px; color: #5f6368; text-transform: uppercase; }
     input, select { padding: 10px; border: 1px solid #dadce0; border-radius: 4px; font-size: 14px; }
-    
-    /* Bloque de ejercicio */
     .ejercicio-bloque { position: relative; border-left: 5px solid var(--primary); background: #fafafa; padding: 25px 15px 15px 15px; }
-    
-    /* Botones */
     .btn { padding: 10px 18px; border: none; border-radius: 4px; cursor: pointer; font-weight: 500; }
     .btn-add { background: #1a2a6c ; color: white; margin-top: 10px; }
     .btn-save { background-color: var(--success); color: white; width: 100%; font-size: 18px; padding: 15px; margin-top: 20px; }
-    .btn-delete { 
-      position: absolute; top: 5px; right: 5px; background: var(--danger); color: white; 
-      width: 22px; height: 22px; border-radius: 4px; font-size: 12px; display: flex; align-items: center; justify-content: center;
-    }
-    
-    /* Selector de categorías */
-    .tag-ejercicio { padding: 6px 12px; background: #e8f0fe; color: #1a73e8; border-radius: 20px; cursor: pointer; border: 1px solid #1a73e8; font-size: 13px; }
-    .tag-ejercicio:hover { background: #1a73e8; color: white; }
-    
+    .btn-delete { position: absolute; top: 5px; right: 5px; background: var(--danger); color: white; width: 22px; height: 22px; border-radius: 4px; font-size: 12px; display: flex; align-items: center; justify-content: center; }
+  
     #toast { 
       display:none; position:fixed; top:20px; right:20px; background: #018a2a; 
       color:white; padding:15px 25px; border-radius:8px; z-index:1000; font-weight:bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 600px) {
+      .row { flex-direction: column; align-items: stretch; }
+      .input-group { width: 100%; flex: none !important; margin-bottom: 10px; }
+      .container { padding: 10px; }
+      h2 { font-size: 1.2rem; }
     }
   </style>
 </head>
 <body>
 <div class="container">
   <div style="margin-bottom: 20px; display: flex; gap: 10px;">
-    <button class="btn" style="background: #5f6368; color: white;" onclick="mostrarTab('tab-entrenamiento')">💪 Entrenamiento</button>
-    <button class="btn" style="background: #5f6368; color: white;" onclick="mostrarTab('tab-atletas')">👤 Registrar Atleta</button>
+    <button class="btn" style="background: #e1eaf5; color: black; border: 1px solid #91a9c7; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1)" onclick="mostrarTab('tab-entrenamiento')">💪 Entrenamiento</button>
+    <button class="btn" style="background: #e1eaf5; color: black; border: 1px solid #91a9c7; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1)" onclick="mostrarTab('tab-atletas')">👤 Registrar Atleta</button>
   </div>
 
   <div id="tab-entrenamiento" class="tab-content">
     <div class="card">
       <h2>📋 Datos de la Sesión</h2>
       <div class="row">
-        <div class="input-group" style="flex: 0 0 140px;"><label>Fecha</label><input type="date" id="fecha"></div>
-        <div class="input-group"><label>ID Atleta</label><input type="text" id="id_atleta" placeholder="Ej: 01"></div>
-        <div class="input-group">
-          <label>Tipo Sesión</label>
+        <div class="input-group" style="min-width: 150px;"><label>Fecha</label><input type="date" id="fecha"></div>
+        <div class="input-group" style="min-width: 100px;"><label>ID Atleta</label><input type="text" id="id_atleta" placeholder="Ej: 01"></div>
+        <div class="input-group"><label>Tipo Sesión</label>
           <select id="tipo_sesion" onchange="limpiarYCambiar()">
             <option value="Gimnasio">🏋️ Gimnasio</option>
             <option value="Pista">🏃 Pista</option>
@@ -58,26 +53,14 @@
         </div>
       </div>
       <div class="row">
-        <div class="input-group"><label>Fase</label><input type="text" id="fase"></div>
-        <div class="input-group"><label>Sueño</label><input type="number" id="sueno" step="0.1"></div>
-        <div class="input-group"><label>Fatiga (1-5)</label><input type="number" id="fatiga"></div>
-        <div class="input-group"><label>RPE General</label><input type="number" id="rpe"></div>
+        <div class="input-group"><label>Fase</label><input type="text" id="fase" placeholder="Ej: general/especial"></div>
+        <div class="input-group"><label>Sueño (hrs)</label><input type="number" id="sueno" step="0.1"></div>
+        <div class="input-group"><label>Fatiga previa (1-5)</label><input type="number" id="fatiga"></div>
+        <div class="input-group"><label>Intensidad percibida (1-10)</label><input type="number" id="intensidad" placeholder=""></div>
       </div>
       <div class="row">
-        <div class="input-group" style="flex:2"><label>Limitante</label><input type="text" id="limitante"></div>
-        <div class="input-group" style="flex:2"><label>Molestias</label><input type="text" id="molestias"></div>
+        <div class="input-group" style="flex:100%"><label>Observaciones / Limitantes del entrenamiento</label><input type="text" id="limitante" placeholder="Ej: respiración, fatiga en isquio, molestia..."></div>
       </div>
-    </div>
-
-    <div class="card">
-      <h3>📚 Catálogo de Ejercicios</h3>
-      <div id="filtros" style="display:flex; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
-        <button class="btn" style="background:#eee" onclick="filtrar('Piernas')">Piernas</button>
-        <button class="btn" style="background:#eee" onclick="filtrar('Tren superior')">Tren Superior</button>
-        <button class="btn" style="background:#eee" onclick="filtrar('Core')">Core</button>
-        <button class="btn" style="background:#eee" onclick="filtrar('Saltos')">Saltos</button>
-      </div>
-      <div id="lista-sugerencias" style="display:flex; flex-wrap:wrap; gap:8px; min-height:40px;"></div>
     </div>
 
     <div class="card">
@@ -96,13 +79,8 @@
         <div class="input-group"><label>Nacimiento</label><input type="date" id="atl_nacimiento"></div>
       </div>
       <div class="row">
-        <div class="input-group">
-          <label>Sexo</label>
-          <select id="atl_sexo">
-            <option value="M">Masculino</option>
-            <option value="F">Femenino</option>
-            <option value="O">Otro</option>
-          </select>
+        <div class="input-group"><label>Sexo</label>
+          <select id="atl_sexo"><option value="M">Masculino</option><option value="F">Femenino</option><option value="O">Otro</option></select>
         </div>
         <div class="input-group"><label>Área / Perfil</label><input type="text" id="atl_perfil" placeholder="Ej: Velocidad"></div>
       </div>
@@ -110,19 +88,16 @@
         <div class="input-group"><label>Mejor Marca</label><input type="text" id="atl_marca"></div>
         <div class="input-group"><label>Fecha de Marca</label><input type="date" id="atl_fecha_marca"></div>
       </div>
-      <div class="row">
-        <div class="input-group"><label>Objetivo Principal</label><input type="text" id="atl_objetivo"></div>
-      </div>
+      <div class="row"><div class="input-group"><label>Objetivo Principal</label><input type="text" id="atl_objetivo"></div></div>
       <button class="btn btn-save" id="btnGuardarAtleta" onclick="enviarAtleta()">REGISTRAR ATLETA</button>
     </div>
   </div>
 </div>
-<div id="toast">✅ Datos subidos con éxito</div>
-<datalist id="lista-ejercicios"></datalist>
+
+<div id="toast"></div> <datalist id="lista-ejercicios"></datalist>
 
 <script>
   let catalogo = [];
-
   window.onload = () => {
     document.getElementById('fecha').valueAsDate = new Date();
     google.script.run.withSuccessHandler(res => {
@@ -133,15 +108,9 @@
     agregarFila();
   };
 
-  function filtrar(zona) {
-    const tipo = document.getElementById('tipo_sesion').value;
-    const box = document.getElementById('lista-sugerencias');
-    box.innerHTML = "";
-    catalogo.filter(e => e.tipo === tipo && e.zona === zona).forEach(e => {
-      let s = document.createElement('span'); s.className = "tag-ejercicio"; s.innerText = e.nombre;
-      s.onclick = () => { let id = agregarFila(); document.querySelector(`#${id} .ej-nombre`).value = e.nombre; };
-      box.appendChild(s);
-    });
+  function mostrarTab(tabId) {
+    document.querySelectorAll('.tab-content').forEach(tab => tab.style.display = 'none');
+    document.getElementById(tabId).style.display = 'block';
   }
 
   function agregarFila() {
@@ -149,18 +118,20 @@
     const id = "row-" + Date.now();
     const div = document.createElement('div');
     div.className = 'row card ejercicio-bloque'; div.id = id;
-    
     let html = `<div class="input-group" style="flex:4"><label>Ejercicio</label><input type="text" class="ej-nombre" list="lista-ejercicios"></div>`;
+    
     if (tipo === "Gimnasio") {
       html += `<div class="input-group"><label>Series</label><input type="number" class="ej-series"></div>
-               <div class="input-group"><label>Repeticiones</label><input type="number" class="ej-reps"></div>
+               <div class="input-group"><label>Reps</label><input type="number" class="ej-reps"></div>
                <div class="input-group"><label>Kg</label><input type="number" class="ej-peso"></div>
                <div class="input-group"><label>RIR</label><input type="number" class="ej-rir"></div>
+               <div class="input-group"><label>Descanso</label><input type="text" class="ej-descanso" placeholder="1'30"></div>
                <div class="input-group" style="flex:2"><label>Notas</label><input type="text" class="ej-notas"></div>`;
     } else {
       html += `<div class="input-group"><label>Series</label><input type="number" class="ej-serie-num"></div>
-               <div class="input-group"><label>Repeticiones</label><input type="number" class="ej-reps"></div>
-               <div class="input-group" style="flex:2"><label>Métrica principal</label><input type="text" class="ej-metrica"></div>
+               <div class="input-group"><label>Reps</label><input type="text" class="ej-reps"></div>
+               <div class="input-group" style="flex:2"><label>Métrica</label><input type="text" class="ej-metrica" placeholder="Ej: tiempo/distancia/altura"></div>
+               <div class="input-group"><label>Descanso</label><input type="text" class="ej-descanso" placeholder="Ej: 2 min 10 seg"></div>
                <div class="input-group" style="flex:2"><label>Notas</label><input type="text" class="ej-notas"></div>`;
     }
     html += `<button class="btn btn-delete" onclick="document.getElementById('${id}').remove()">✕</button>`;
@@ -172,17 +143,19 @@
   function enviarDatos() {
     const btn = document.getElementById('btnGuardar');
     btn.disabled = true; btn.innerText = "PROCESANDO...";
-    
     const ejercicios = [];
     document.querySelectorAll('.ejercicio-bloque').forEach(b => {
-      let ej = { nombre: b.querySelector('.ej-nombre').value };
+      let ej = { 
+        nombre: b.querySelector('.ej-nombre').value,
+        descanso: b.querySelector('.ej-descanso').value,
+        notas: b.querySelector('.ej-notas').value
+      };
       if (document.getElementById('tipo_sesion').value === "Gimnasio") {
         ej.series = b.querySelector('.ej-series').value; ej.reps = b.querySelector('.ej-reps').value;
         ej.peso = b.querySelector('.ej-peso').value; ej.rir = b.querySelector('.ej-rir').value;
-        ej.notas = b.querySelector('.ej-notas').value;
       } else {
         ej.serie_num = b.querySelector('.ej-serie-num').value; ej.reps = b.querySelector('.ej-reps').value;
-        ej.metrica = b.querySelector('.ej-metrica').value; ej.notas = b.querySelector('.ej-notas').value;
+        ej.metrica = b.querySelector('.ej-metrica').value;
       }
       if (ej.nombre) ejercicios.push(ej);
     });
@@ -191,74 +164,48 @@
       id_atleta: document.getElementById('id_atleta').value, fecha: document.getElementById('fecha').value,
       tipo_sesion: document.getElementById('tipo_sesion').value, fase: document.getElementById('fase').value,
       sueno: document.getElementById('sueno').value, fatiga: document.getElementById('fatiga').value,
-      rpe: document.getElementById('rpe').value, limitante: document.getElementById('limitante').value,
-      molestias: document.getElementById('molestias').value, ejercicios: ejercicios
+      intensidad: document.getElementById('intensidad').value, 
+      limitante: document.getElementById('limitante').value, 
+      molestias: "" // Se envía vacío para no romper la columna en Google Sheets
     };
+    payload.ejercicios = ejercicios;
 
-  google.script.run.withSuccessHandler(res => {
-    if (res === "EXITO") {
+    google.script.run.withSuccessHandler(res => {
       const t = document.getElementById('toast');
-      t.innerText = "¡Datos guardados!";
-      t.style.display = 'block';
-      
-      // En lugar de recargar todo, solo limpiamos los ejercicios para evitar duplicados
-      setTimeout(() => {
-        t.style.display = 'none';
-        document.getElementById('contenedor-ejercicios').innerHTML = "";
-        agregarFila(); // Deja una fila lista para el siguiente
-        btn.disabled = false;
-        btn.innerText = "GUARDAR DATOS";
-      }, 5000);
-    } else {
-      alert("Hubo un problema: " + res);
-      btn.disabled = false;
-      btn.innerText = "GUARDAR DATOS";
-    }
-  }).guardarTodo(payload);
-}
+      if (res === "EXITO") {
+        t.innerText = "✅ ¡Datos guardados!"; t.style.display = 'block';
+        setTimeout(() => {
+          t.style.display = 'none';
+          document.getElementById('contenedor-ejercicios').innerHTML = "";
+          agregarFila(); btn.disabled = false; btn.innerText = "GUARDAR ENTRENAMIENTO";
+        }, 3000);
+      } else {
+        alert(res); btn.disabled = false; btn.innerText = "GUARDAR ENTRENAMIENTO";
+      }
+    }).guardarTodo(payload);
+  }
+
+  function enviarAtleta() {
+    const btn = document.getElementById('btnGuardarAtleta');
+    btn.disabled = true; btn.innerText = "REGISTRANDO...";
+    const payload = {
+      nombre: document.getElementById('atl_nombre').value, nacimiento: document.getElementById('atl_nacimiento').value,
+      sexo: document.getElementById('atl_sexo').value, perfil: document.getElementById('atl_perfil').value,
+      marca: document.getElementById('atl_marca').value, fechaMarca: document.getElementById('atl_fecha_marca').value,
+      objetivo: document.getElementById('atl_objetivo').value
+    };
+    google.script.run.withSuccessHandler(res => {
+      if (res.startsWith("EXITO")) {
+        const t = document.getElementById('toast');
+        t.innerText = "✅ Atleta registrado (ID: " + res.split('_')[2] + ")"; t.style.display = 'block';
+        ['atl_nombre','atl_nacimiento','atl_perfil','atl_marca','atl_fecha_marca','atl_objetivo'].forEach(id => document.getElementById(id).value = "");
+        setTimeout(() => { t.style.display = 'none'; }, 4000);
+      } else { alert(res); }
+      btn.disabled = false; btn.innerText = "REGISTRAR ATLETA";
+    }).registrarNuevoAtleta(payload);
+  }
+
   function limpiarYCambiar() { document.getElementById('contenedor-ejercicios').innerHTML = ""; agregarFila(); }
-
-function mostrarTab(tabId) {
-  document.querySelectorAll('.tab-content').forEach(tab => tab.style.display = 'none');
-  document.getElementById(tabId).style.display = 'block';
-}
-
-function enviarAtleta() {
-  const btn = document.getElementById('btnGuardarAtleta');
-  btn.disabled = true; btn.innerText = "REGISTRANDO...";
-
-  const payload = {
-    nombre: document.getElementById('atl_nombre').value,
-    nacimiento: document.getElementById('atl_nacimiento').value,
-    sexo: document.getElementById('atl_sexo').value,
-    perfil: document.getElementById('atl_perfil').value,
-    marca: document.getElementById('atl_marca').value,
-    fechaMarca: document.getElementById('atl_fecha_marca').value,
-    objetivo: document.getElementById('atl_objetivo').value
-  };
-
-  google.script.run.withSuccessHandler(res => {
-    if (res.startsWith("EXITO")) {
-      // Usamos el Toast en lugar del alert
-      const t = document.getElementById('toast');
-      const idAsignado = res.split('_')[2];
-      
-      t.innerText = "✅ Atleta registrado (ID: " + idAsignado + ")";
-      t.style.display = 'block';
-      
-      // Limpiar campos
-      ['atl_nombre','atl_nacimiento','atl_perfil','atl_marca','atl_fecha_marca','atl_objetivo'].forEach(id => document.getElementById(id).value = "");
-      
-      // Ocultar mensaje después de 4 segundos
-      setTimeout(() => { t.style.display = 'none'; }, 4000);
-      
-    } else {
-      alert("Error: " + res);
-    }
-    btn.disabled = false; btn.innerText = "REGISTRAR ATLETA";
-  }).registrarNuevoAtleta(payload);
-}
-
 </script>
 </body>
 </html>

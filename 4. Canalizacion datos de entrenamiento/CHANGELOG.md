@@ -63,8 +63,29 @@ Flujo de trabajo: Revisar correcciones y mejoras, desarrollar la tarea, probar m
 *   Filtros por zona: No esta funcionando. Se evaluara la practicidad de la funcionalidad y su posible retiro.
 ### Correcciones y mejoras
 *   Refactor: Simplificación de IDs de nivel 2. Se elimina el uso de UUIDs y se adopta un sistema de ID de Sesión compuesto (Atleta_Fecha_TipoSesion) que actúa como clave relacional, permitiendo sesiones múltiples por día y mejorando la legibilidad de la base de datos
-*   Feature: Implementación de módulo de Registro de Atletas con ID autoincremental (01, 02...). Incluye 
+*   Feature: Implementación de módulo de Registro de Atletas con ID autoincremental (01, 02...). 
 *   Feature: Inclusión de campo 'Descanso' en registros de Nivel 2 (Gimnasio y Pista) posicionado antes de las notas de serie para mejorar la trazabilidad del entrenamiento.
+
+### Sugerencias
+* Probar happy paths y edge cases
+* Cronometrar el tiempo de uso de la app para la tarea 
+* Evaluar si el usuario debe ingresar su nombre o ID unico de la app para registrar sus entrenamientos.
+
+## v0.0.4  - 2026-01-15 🛠️
+### Funcionalidades
+*   Interfaz Web App: Formulario completo web completa con HTML/CSS/JS.
+*   Catálogo Dinámico: Implementación de filtros por zona (Piernas, Tren Superior, etc.) para selección rápida de ejercicios.
+*   Soporte Multimodal: Lógica diferenciada para ingresos de Gimnasio y Pista en un solo formulario.
+*   Pestaña: Módulo de Registro de Atletas con ID autoincremental
+
+### Problemas conocidos
+
+### Correcciones y mejoras
+*   Se quito el bloque de categorias de ejercicios 
+*   Unificación logica de IDs  
+*   Se agregaron bordes a botones de pestañas
+*   Cambio en ubicación de placeholders y unificacion de casillero limitante y molestias
+
 
 ### Sugerencias
 * Probar happy paths y edge cases
