@@ -6,7 +6,7 @@ function doGet() {
     .addMetaTag('viewport', 'width=device-width, initial-scale=1');
 }
 
-// Mantenemos esta función para que el autocompletado en el HTML funcione
+//Función para que el autocompletado de ejercicios
 function obtenerCatalogoCompleto() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   const hoja = ss.getSheets().find(h => h.getName().trim() === "Catalogo");
@@ -31,7 +31,7 @@ function guardarTodo(datos) {
     const sufijo = (datos.tipo_sesion === "Gimnasio") ? "_G" : "_P";
     const idSesionConSufijo = datos.id_atleta + "_" + datos.fecha.replace(/-/g, "") + sufijo;
 
-    // 1. Guardar Cabecera de Sesión
+    // 1. Guardar datos de Sesión
     hojaSesion.appendRow([
       idSesionConSufijo, datos.id_atleta, datos.fecha, datos.tipo_sesion, 
       datos.fase, datos.sueno, datos.fatiga, datos.intensidad, 
@@ -42,9 +42,9 @@ function guardarTodo(datos) {
     datos.ejercicios.forEach(ej => {
       if (ej.nombre) {
         if (datos.tipo_sesion === "Gimnasio") {
-          hojaGim.appendRow([idSesionConSufijo, ej.nombre, ej.series, ej.reps, ej.peso, ej.rir, ej.descanso, ej.notas]);
+          hojaGim.appendRow([idSesionConSufijo, ej.orden, ej.nombre, ej.series, ej.reps, ej.peso, ej.rir, ej.descanso, ej.notas]);
         } else {
-          hojaPista.appendRow([idSesionConSufijo, ej.nombre, ej.serie_num, ej.reps, ej.metrica, ej.descanso, ej.notas]);
+          hojaPista.appendRow([idSesionConSufijo, ej.orden, ej.nombre, ej.serie_num, ej.reps, ej.metrica, ej.descanso, ej.notas]);
         }
       }
     });

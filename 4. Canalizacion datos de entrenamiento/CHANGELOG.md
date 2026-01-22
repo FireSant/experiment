@@ -79,13 +79,32 @@ Flujo de trabajo: Revisar correcciones y mejoras, desarrollar la tarea, probar m
 *   Pestaña: Módulo de Registro de Atletas con ID autoincremental
 
 ### Problemas conocidos
-
+*   Las reps y pesos piden solo numeros. debe permitirse entrada de texto para poder registrar las reps y pesos de cada serie.
+*   No se muestra el orden de los ejercicios. En caso de desordenarse por aplicación de filtros no sabras que ejercicio fue primero.
 ### Correcciones y mejoras
 *   Se quito el bloque de categorias de ejercicios 
 *   Unificación logica de IDs  
 *   Se agregaron bordes a botones de pestañas
 *   Cambio en ubicación de placeholders y unificacion de casillero limitante y molestias
 
+
+### Sugerencias
+* Probar happy paths y edge cases
+* Cronometrar el tiempo de uso de la app para la tarea 
+* Evaluar si el usuario debe ingresar su nombre o ID unico de la app para registrar sus entrenamientos.
+
+## v0.0.5  - 2026-01-21 🛠️
+### Funcionalidades
+*   Interfaz Web App: Formulario completo web completa con HTML/CSS/JS.
+*   Catálogo Dinámico: Implementación de filtros por zona (Piernas, Tren Superior, etc.) para selección rápida de ejercicios.
+*   Soporte Multimodal: Lógica diferenciada para ingresos de Gimnasio y Pista en un solo formulario.
+*   Pestaña: Módulo de Registro de Atletas con ID autoincremental
+*
+
+### Problemas conocidos
+
+### Correcciones y mejoras
+*   Se agregó lógica a funcion enviarDatos de Index y a funcion guardarTodo de Codigo.gs para guardar el orden de ejercicios
 
 ### Sugerencias
 * Probar happy paths y edge cases
